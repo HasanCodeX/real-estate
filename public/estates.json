@@ -1,0 +1,25 @@
+[
+    {
+      "id": "1",
+      "estate_title": "Luxury Villa",
+      "image": "https://via.placeholder.com/300",
+      "description": "A beautiful luxury villa with all amenities.",
+      "price": "$1,000,000",
+      "status": "sale",
+      "area": "5000 sq ft",
+      "location": "Beverly Hills, CA",
+      "facilities": ["Living Room", "Swimming Pool", "Kitchen"]
+    },
+    {
+      "id": "2",
+      "estate_title": "Beach House",
+      "image": "https://via.placeholder.com/300",
+      "description": "A charming beach house with ocean views.",
+      "price": "$750,000",
+      "status": "rent",
+      "area": "3000 sq ft",
+      "location": "Miami, FL",
+      "facilities": ["Balcony", "Swimming Pool", "Garage"]
+    }
+  ]
+  

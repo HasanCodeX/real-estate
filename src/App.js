@@ -4,13 +4,15 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import EstateDetails from './pages/EstateDetails';
-import ProtectedRoute from './Component/ProtectedRoute';
+import Navbar from './components/Navbar';
+import ProtectedRoute from './components/ProtectedRoute';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   return (
     <Router>
+      <Navbar />
       <ToastContainer />
       <Routes>
         <Route path="/" element={<Home />} />
